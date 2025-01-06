@@ -5,8 +5,8 @@ sfr = SimpleFacerec()
 sfr.load_encoding_images("images/")
 
 # load camera
-# cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture("[IP]")
+cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture("[IP]")
 
 while True:
     ret, frame = cap.read()
